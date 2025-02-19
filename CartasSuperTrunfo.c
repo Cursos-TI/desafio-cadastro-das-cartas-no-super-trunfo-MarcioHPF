@@ -12,47 +12,49 @@ int main() {
 
     // Pede e recebe as variáveis para a primeira carta
     printf("Primeira Carta\n");
+    // Estado
     printf("Insira o Estado: ");
     scanf("%s", &estadoA);
-
+    //Código
     printf("Insira o código da carta: ");
     scanf("%s", &codA);
-
+    //Nome da Cidade
     printf("Insira o nome da cidade: ");
     scanf("%s", &cidadeA);
-
+    //População
     printf("Insira a população da cidade: ");
     scanf("%d", &popA);
-
+    //Área
     printf("Insira a área (em km²) da cidade: ");
     scanf("%f", &areaA);
-
+    //PIB
     printf("Insira o PIB da cidade: ");
     scanf("%f", &pibA);
-
+    //Quantidade de pontos turísticos
     printf("Insira a quantidade de pontos turísticos da cidade: ");
     scanf("%d", &pturA);
 
     //Pede e recebe as variáveis para a segunda carta
     printf("Segunda Carta\n");
+    //Estado
     printf("Insira o Estado: ");
     scanf("%s", &estadoB);
-
+    //Código
     printf("Insira o código da carta: ");
     scanf("%s", &codB);
-
+    //Nome da cidade
     printf("Insira o nome da cidade: ");
     scanf("%s", &cidadeB);
-
+    //População
     printf("Insira a população da cidade: ");
     scanf("%d", &popB);
-
+    //Área
     printf("Insira a área (em km²) da cidade: ");
     scanf("%f", &areaB);
-
+    //PIB
     printf("Insira o PIB da cidade: ");
     scanf("%f", &pibB);
-
+    //Quantidade de pontos turísticos
     printf("Insira a quantidade de pontos turísticos da cidade: ");
     scanf("%d", &pturB);
 
